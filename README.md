@@ -33,7 +33,7 @@ git commit -m "first commit"
 
 heroku login
 heroku create app_name
-git push heroku main
+git push heroku master
 heroku open
 
 heroku run python manage.py migrate
